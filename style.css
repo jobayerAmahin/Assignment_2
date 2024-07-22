@@ -1,0 +1,118 @@
+*{
+    background-color: rgb(17,17,17);
+}
+p{
+    color: rgba(255,255,255,0.5);
+    font-size: 18px;
+    font-weight: 400;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+/*---------------Header Section--------------*/
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 59px 190px;
+}
+/*Navigation Section*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 4px;
+    border-radius: 39px;
+}
+li{
+    list-style: none;
+}
+#navButton{
+    color: white;
+    background-color: rgb(230, 83, 60);
+    border-radius: 39px;
+}
+
+/*Banner Section*/
+.banner{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+}
+.banText{
+    width: 50%;
+}
+h1{
+    color: white;
+    font-size: 78px;
+    font-weight: 900;
+}
+.banTextButton{
+    display: flex;
+    gap: 30px;
+}
+.banTextButton>button{
+    color: white;
+    box-sizing: border-box;
+    border-radius: 39px;
+    padding: 16px 40px;
+}
+#navBtn1{
+    background-color: rgb(230, 83, 60);
+    border: 0;
+}
+#navBtn2{
+    border: 1px solid rgb(255,255,255);
+}
+#banImgUp, #banImgDown{
+    width: 195px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.5);
+}
+#banImgUp>span, #banImgDownText>span{
+    color: white;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    font-size: 40px;
+}
+.round{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(230, 83, 60) ;
+}
+#banImgUp{
+    position: absolute;
+    right: 0px;
+    top: 130px;
+}
+#banImgDown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 300px;
+    bottom: 70px;
+}
