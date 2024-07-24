@@ -14,8 +14,10 @@
     font-style: normal;
 }  
 *{
-    background-color: rgb(17,17,17);
+    margin: 0;
+    padding: 0;
 }
+
 p{
     color: rgba(255,255,255,0.5);
     font-size: 18px;
@@ -38,6 +40,7 @@ header,#page2{
     margin: 0 auto;
     padding: 59px 190px;
     position: relative;
+    background-color: rgb(17,17,17);
 }
 /*Navigation Section*/
 nav{
@@ -80,9 +83,13 @@ li{
     display: flex;
     justify-content: space-between;
     gap: 100px;
+    padding-top: 80px;
 }
 .banText{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 h1{
     color: white;
@@ -93,18 +100,19 @@ h1{
     display: flex;
     gap: 30px;
 }
-.banTextButton>button{
+.banTextButton>button, #page3Button{
     color: white;
     box-sizing: border-box;
     border-radius: 39px;
     padding: 16px 40px;
 }
-#navBtn1{
+#navBtn1, #page3Button{
     background-color: rgb(230, 83, 60);
     border: 0;
 }
 #navBtn2{
     border: 1px solid rgb(255,255,255);
+    color: black;
 }
 /*Banner Image*/
 .banImg{
@@ -153,6 +161,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 .page2Images{
     display: flex;
@@ -166,6 +175,35 @@ h1{
 }
 .page2Img{
     border-radius: 50%;
+}
+
+/*-----------------Page 3------------------*/
+#page3{
+    background-color: rgb(17,17,17);
+    padding: 59px 190px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.page3Inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    background-color: rgb(34, 34, 34);
+    padding: 30px;
+    border-radius: 10px;
+}
+.page3Text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+#page3Img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 /*------------------------------------------------------------Responsive---------------------------------------------------------------*/
@@ -253,4 +291,27 @@ h1{
     #page2{
         text-align: center;
     }
+}
+
+/*----------------Page 3-------------------*/
+@media screen and (max-width:576px) {
+    #page3{
+        padding: 20px 30px;
+        width: 100%;
+    }
+    .page3Inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+    }
+    .page3Text{
+        width: 100%;
+    }
+    #page3Img{
+        width: 300px;
+        height: 200px;
+        padding-top: 30px;
+    }    
 }
