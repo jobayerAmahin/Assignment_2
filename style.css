@@ -227,7 +227,7 @@ h1{
     margin-top: 30px;
 }
 .imgSec{
-    width: 323px;
+    width: 320px;
     height: 272px;
     display: flex;
     flex-direction: column;
@@ -277,7 +277,7 @@ h1{
         font-weight: 700;
         letter-spacing: 1px;
     }
-    header, #page2{
+    header, #page2, #page5{
         width: 100%;
         margin: 0 auto;
         padding: 20px 30px;
@@ -370,4 +370,11 @@ h1{
         height: 200px;
         padding-top: 30px;
     }    
+}
+
+/*-----------------Page 5----------------------*/
+@media screen and (max-width:576px) {
+    .page5ImageSection{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
