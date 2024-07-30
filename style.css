@@ -35,7 +35,7 @@ h5{
     color: white;
 }
 /*---------------Header Section--------------*/
-header,#page2{
+header,#page2,footer{
     max-width: 1440px;
     margin: 0 auto;
     padding: 59px 190px;
