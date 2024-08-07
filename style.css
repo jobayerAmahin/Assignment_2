@@ -29,6 +29,11 @@ h2{
     font-weight: 900;
     letter-spacing: 1px;
 }
+h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
 h5{
     font-size: 22px;
     font-weight: 600;
@@ -273,6 +278,13 @@ h1{
 }
 .footRight{
     width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.footerList{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
 }
 
 /*------------------------------------------------------------Responsive---------------------------------------------------------------*/
