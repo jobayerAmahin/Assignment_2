@@ -272,6 +272,7 @@ h1{
 .footer{
     display: flex;
     gap: 40px;
+    padding-bottom: 40px;
 }
 .footLeft{
     width: 40%;
@@ -299,7 +300,13 @@ h1{
     list-style: none;
     color: rgba(255,255,255,0.5);
 }
-
+footer>hr{
+    color: rgba(154, 154, 154, 0.5);
+}
+footer>p{
+    text-align: center;
+    padding-top: 10px;
+}
 /*------------------------------------------------------------Responsive---------------------------------------------------------------*/
 
 /*------------Header Section-----------------*/
