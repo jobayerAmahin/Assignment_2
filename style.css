@@ -426,7 +426,7 @@ footer>p{
 /*-----------------Footer-----------------------*/
 @media screen and (max-width:576px){
     .footer{
-        display: flex;
+        flex-direction: column;
         gap: 40px;
         padding-bottom: 40px;
     }
