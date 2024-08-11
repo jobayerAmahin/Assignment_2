@@ -423,3 +423,44 @@ footer>p{
         grid-template-columns: repeat(1,1fr);
     }
 }
+/*-----------------Footer-----------------------*/
+@media screen and (max-width:576px){
+    .footer{
+        display: flex;
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+    .footLeft{
+        width: 40%;
+    }
+    .footLeft>h1{
+        color: rgb(230, 83, 60);
+        font-size: 50px;
+        font-weight: 800;
+        padding-bottom: 30px;
+    }
+    .footRight{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footerList{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding-top: 30px;
+        border: 0px;
+    }
+    .footerList>li{
+        list-style: none;
+        color: rgba(255,255,255,0.5);
+    }
+    footer>hr{
+        color: rgba(154, 154, 154, 0.5);
+    }
+    footer>p{
+        text-align: center;
+        padding-top: 10px;
+    }
+}
