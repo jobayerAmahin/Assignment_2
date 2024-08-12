@@ -114,10 +114,13 @@ h1{
 #navBtn1, #page3Button{
     background-color: rgb(230, 83, 60);
     border: 0;
+    font-size: 18px;
 }
 #navBtn2{
     border: 1px solid rgb(255,255,255);
-    color: black;
+    color: white;
+    background-color: rgb(17,17,17);
+    font-size: 18px;
 }
 /*Banner Image*/
 .banImg{
@@ -322,7 +325,7 @@ footer>p{
         font-weight: 700;
         letter-spacing: 1px;
     }
-    header, #page2, #page5,footer{
+    header, #page2,#page3{
         width: 100%;
         margin: 0 auto;
         padding: 20px 30px;
@@ -336,6 +339,10 @@ footer>p{
     }
     nav{
         justify-content: space-between;
+    }
+    #navBtn1, #page3Button, #navBtn2{
+        font-size: 14px;
+        padding: 10px 20px;
     }
     /*Banner section*/
     .banner{
@@ -421,6 +428,9 @@ footer>p{
 @media screen and (max-width:576px) {
     /* .page5ImageSection{
         grid-template-columns: repeat(1,1fr);
+    }
+    #page5>p{
+        text-align: center;
     } */
     #page5{
         display: none;
@@ -428,10 +438,10 @@ footer>p{
 }
 /*-----------------Footer-----------------------*/
 @media screen and (max-width:576px){
-    .footer{
+    /* .footer{
         flex-direction: column;
         gap: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
     .footLeft,.footRight{
         width: 100%;
@@ -439,5 +449,8 @@ footer>p{
     .footRight{
         flex-direction: column;
         gap: 40px;
-    }
+    } */
+    footer{
+        display: none;
+    } 
 }
