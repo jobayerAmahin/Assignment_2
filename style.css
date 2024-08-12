@@ -322,7 +322,7 @@ footer>p{
         font-weight: 700;
         letter-spacing: 1px;
     }
-    header, #page2, #page5,.footer{
+    header, #page2, #page5,footer{
         width: 100%;
         margin: 0 auto;
         padding: 20px 30px;
@@ -419,8 +419,11 @@ footer>p{
 
 /*-----------------Page 5----------------------*/
 @media screen and (max-width:576px) {
-    .page5ImageSection{
+    /* .page5ImageSection{
         grid-template-columns: repeat(1,1fr);
+    } */
+    #page5{
+        display: none;
     }
 }
 /*-----------------Footer-----------------------*/
@@ -429,5 +432,12 @@ footer>p{
         flex-direction: column;
         gap: 40px;
         padding-bottom: 40px;
+    }
+    .footLeft,.footRight{
+        width: 100%;
+    }
+    .footRight{
+        flex-direction: column;
+        gap: 40px;
     }
 }
