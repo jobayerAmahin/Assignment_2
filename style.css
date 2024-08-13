@@ -213,6 +213,13 @@ h1{
     object-fit: cover;
     border-radius: 10px;
 }
+/*-----------------------Page 4----------------------*/
+#page4{
+    background-color: rgb(34, 34, 34);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 59px 190px;
+}
 
 /*-----------------------Page 5---------------------*/
 #page5{
@@ -325,7 +332,7 @@ footer>p{
         font-weight: 700;
         letter-spacing: 1px;
     }
-    header, #page2,#page3,#page5{
+    header, #page2,#page3,#page5,footer{
         width: 100%;
         margin: 0 auto;
         padding: 20px 30px;
@@ -439,7 +446,7 @@ footer>p{
 }
 /*-----------------Footer-----------------------*/
 @media screen and (max-width:576px){
-    /* .footer{
+    .footer{
         flex-direction: column;
         gap: 40px;
         padding-bottom: 60px;
@@ -450,8 +457,8 @@ footer>p{
     .footRight{
         flex-direction: column;
         gap: 40px;
-    } */
-    footer{
+    }
+    /* footer{
         display: none;
-    } 
+    }  */
 }
