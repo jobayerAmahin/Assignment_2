@@ -325,7 +325,7 @@ footer>p{
         font-weight: 700;
         letter-spacing: 1px;
     }
-    header, #page2,#page3{
+    header, #page2,#page3,#page5{
         width: 100%;
         margin: 0 auto;
         padding: 20px 30px;
@@ -418,7 +418,7 @@ footer>p{
         width: 100%;
     }
     #page3Img{
-        width: 300px;
+        width: 270px;
         height: 200px;
         padding-top: 30px;
     }    
@@ -426,15 +426,16 @@ footer>p{
 
 /*-----------------Page 5----------------------*/
 @media screen and (max-width:576px) {
-    /* .page5ImageSection{
+    .page5ImageSection{
         grid-template-columns: repeat(1,1fr);
     }
     #page5>p{
         text-align: center;
-    } */
-    #page5{
-        display: none;
+        padding: 2px 2px;
     }
+    /* #page5{
+        display: none;
+    } */
 }
 /*-----------------Footer-----------------------*/
 @media screen and (max-width:576px){
