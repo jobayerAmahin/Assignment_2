@@ -85,7 +85,7 @@
         <section id="page4">    
             <div class="bmi">
                 <div class="table">
-                    <h3>BMI Calculator Chart</h3>
+                    <h4>BMI Calculator Chart</h4>
                     <table>
                         <tr>
                             <th>BMI</th>
@@ -111,19 +111,23 @@
                 </div>
                 <div class="calculate">
                     <h4>Calculate your BMI</h4>
+                    <p>We believe fitness should be accessible to everyone, everywhere, <br>regardless of income or access to a gym. </p>
                     <div class="inputList">
-                        <input type="number" name="" id="">
-                        <input type="number" name="" id="">
-                        <input type="number" name="" id="">
-                        <select name="" id="">
+                        <input type="number" name="" id="" class="inpH" placeholder="Height/cm">
+                        <input type="number" name="" id="" class="inpH" placeholder="Weight/kg">
+                        <input type="number" name="" id="" class="inpH" placeholder="Age">
+                        <select name="Sex" id="" class="inpH" >
+                            <option value="" disabled selected>Sex</option>
                             <option value="sex">Male</option>
                             <option value="sex">Female</option>
                         </select>
-                        <select name="" id="">
+                        <select name="Activity" id="" class="inpF">
+                            <option value="" disabled selected>Choose an Activity</option>
                             <option value="activity">Run</option>
                             <option value="activity">Walk</option>
                         </select>
                     </div>
+                    <button id="bmiButton">Calculate</button>
                 </div>
             </div>
         </section>
